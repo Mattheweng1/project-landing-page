@@ -12,11 +12,11 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    color: red;
 }
 
 .header, .footer {
     background-color: #1F2937;
-    color: red;
     height: 50px;
     display: flex;
     padding: 16px;
