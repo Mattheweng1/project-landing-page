@@ -33,16 +33,13 @@ body {
 .header-links {
     display: flex;
     gap: 16px;
+    font-size: 18px;
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-}
-
-.header-links {
-    font-size: 18px;
 }
 
 .header-links, .footer {
@@ -121,7 +118,7 @@ body {
     color: #1F2937;
 }
 
-.container {
+.content-two .container {
     display: flex;
     gap: 64px;
     flex-wrap: wrap;
@@ -187,11 +184,18 @@ body {
 .blue.container {
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     background-color: #3882F6;
     border-radius: 8px;
     padding: 64px 128px;
     color: #F9FAF8;
+    row-gap: 32px;
+}
+
+.blue.container .left {
+    margin-right: 32px;
 }
 
 .blue.container .left .main-text {
@@ -206,5 +210,5 @@ body {
 
 .blue .sign-up {
     outline: 2px solid #F9FAF8;
-    margin-right: 0;
+    margin: 0;
 }
